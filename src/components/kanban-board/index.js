@@ -24,6 +24,7 @@ export default class KanbanBoard extends Component {
     this.state.tasks.map((item)=> {
       var newCard = item.stage
       console.log(1111,newCard)
+      debugger
     })
   }
     const { tasks } = this.state;
