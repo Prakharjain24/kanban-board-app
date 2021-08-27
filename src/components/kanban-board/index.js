@@ -8,7 +8,7 @@ export default class KanbanBoard extends Component {
     // Therefore, when you perform any operation on tasks, make sure you pick tasks by names (primary key) instead of any kind of index or any other attribute.
     this.state = {
       tasks: [
-        { name: '1', stage: 1 },
+        { name: '1', stage: 0 },
         { name: '2', stage: 0 },
       ]
     };
@@ -18,6 +18,14 @@ export default class KanbanBoard extends Component {
 
 
   render() {
+
+  const onCardAdd = () => {
+    let card = [];
+    this.state.tasks.map((item)=> {
+      var newCard = item.stage
+      console.log(1111,newCard)
+    })
+  }
     const { tasks } = this.state;
 
     let stagesTasks = [];
