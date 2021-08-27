@@ -19,7 +19,7 @@ export default class KanbanBoard extends Component {
 
   render() {
 
-  const onCardAdd = () => {
+  const onCardAdd = (e) => {
     let card = [];
     this.state.tasks.map((item)=> {
       var newCard = item.stage

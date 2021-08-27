@@ -1,56 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="10" failures="10" time="3.087">
-  <testsuite name="undefined" errors="0" failures="10" skipped="0" timestamp="2021-08-27T07:13:58" time="2.451" tests="10">
-    <testcase classname=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" name=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" time="0.085">
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:41:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+<testsuites name="jest tests" tests="10" failures="10" time="2.458">
+  <testsuite name="undefined" errors="0" failures="10" skipped="0" timestamp="2021-08-27T07:20:26" time="1.842" tests="10">
+    <testcase classname=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" name=" Clicking on Create Task Button should add it to first stage and do nothing if input is empty" time="0.123">
       <failure>Error: expect(element).toContainElement(element)
 
 &lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
@@ -63,56 +14,7 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
     at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
     </testcase>
-    <testcase classname=" For a task in stage 0, backward icon is disabled and forward icon is enabled" name=" For a task in stage 0, backward icon is disabled and forward icon is enabled" time="0.014">
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:73:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname=" For a task in stage 0, backward icon is disabled and forward icon is enabled" name=" For a task in stage 0, backward icon is disabled and forward icon is enabled" time="0.016">
       <failure>Error: expect(element).toContainElement(element)
 
 &lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
@@ -122,59 +24,9 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" name=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" time="0.026">
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:105:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" name=" For a task in stage 0, can be moved forward till stage 4 and check for icons are enabled/disabled correctly" time="0.015">
       <failure>Error: expect(element).toContainElement(element)
 
 &lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
@@ -184,59 +36,9 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" name=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" time="0.02">
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:160:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" name=" For a task in stage 4, can be moved backward till stage 0 and check for icons are enabled/disabled correctly" time="0.017">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
 
 &lt;body&gt;
@@ -282,6 +84,53 @@
                 class=&quot;styled mt-50&quot;
                 data-testid=&quot;stage-0&quot;
               &gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;1-name&quot;
+                    &gt;
+                      1
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only danger x-small mx-2&quot;
+                        data-testid=&quot;1-delete&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          delete
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
                 &lt;li
                   class=&quot;slide-up-fade-in&quot;
                 &gt;
@@ -344,55 +193,7 @@
               &lt;ul
                 class=&quot;styled mt-50&quot;
                 data-testid=&quot;stage-1&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
+              /&gt;
             &lt;/div&gt;
           &lt;/div&gt;
           &lt;div
@@ -439,59 +240,9 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" Clicking on delete should delete the task in stage 0" name=" Clicking on delete should delete the task in stage 0" time="0.013">
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:208:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname=" Clicking on delete should delete the task in stage 0" name=" Clicking on delete should delete the task in stage 0" time="0.011">
       <failure>Error: expect(element).toContainElement(element)
 
 &lt;ul class=&quot;styled mt-50&quot; data-testid=&quot;stage-0&quot; /&gt; does not contain: null
@@ -501,59 +252,9 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" Clicking on delete should delete the task in stage 1" name=" Clicking on delete should delete the task in stage 1" time="0.021">
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:234:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname=" Clicking on delete should delete the task in stage 1" name=" Clicking on delete should delete the task in stage 1" time="0.012">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
 
 &lt;body&gt;
@@ -599,6 +300,53 @@
                 class=&quot;styled mt-50&quot;
                 data-testid=&quot;stage-0&quot;
               &gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;1-name&quot;
+                    &gt;
+                      1
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only danger x-small mx-2&quot;
+                        data-testid=&quot;1-delete&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          delete
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
                 &lt;li
                   class=&quot;slide-up-fade-in&quot;
                 &gt;
@@ -661,55 +409,7 @@
               &lt;ul
                 class=&quot;styled mt-50&quot;
                 data-testid=&quot;stage-1&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
+              /&gt;
             &lt;/div&gt;
           &lt;/div&gt;
           &lt;div
@@ -756,59 +456,9 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" Clicking on delete should delete the task in stage 2" name=" Clicking on delete should delete the task in stage 2" time="0.015">
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:261:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname=" Clicking on delete should delete the task in stage 2" name=" Clicking on delete should delete the task in stage 2" time="0.012">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
 
 &lt;body&gt;
@@ -854,6 +504,53 @@
                 class=&quot;styled mt-50&quot;
                 data-testid=&quot;stage-0&quot;
               &gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;1-name&quot;
+                    &gt;
+                      1
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only danger x-small mx-2&quot;
+                        data-testid=&quot;1-delete&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          delete
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
                 &lt;li
                   class=&quot;slide-up-fade-in&quot;
                 &gt;
@@ -916,55 +613,7 @@
               &lt;ul
                 class=&quot;styled mt-50&quot;
                 data-testid=&quot;stage-1&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
+              /&gt;
             &lt;/div&gt;
           &lt;/div&gt;
           &lt;div
@@ -1011,59 +660,9 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" Clicking on delete should delete the task in stage 3" name=" Clicking on delete should delete the task in stage 3" time="0.017">
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:289:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname=" Clicking on delete should delete the task in stage 3" name=" Clicking on delete should delete the task in stage 3" time="0.015">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
 
 &lt;body&gt;
@@ -1109,6 +708,53 @@
                 class=&quot;styled mt-50&quot;
                 data-testid=&quot;stage-0&quot;
               &gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
+                      data-testid=&quot;1-name&quot;
+                    &gt;
+                      1
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only danger x-small mx-2&quot;
+                        data-testid=&quot;1-delete&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          delete
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
                 &lt;li
                   class=&quot;slide-up-fade-in&quot;
                 &gt;
@@ -1171,55 +817,7 @@
               &lt;ul
                 class=&quot;styled mt-50&quot;
                 data-testid=&quot;stage-1&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
+              /&gt;
             &lt;/div&gt;
           &lt;/div&gt;
           &lt;div
@@ -1266,157 +864,9 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" after many forward and back operations, tasks are in correct state" name=" after many forward and back operations, tasks are in correct state" time="0.02">
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:320:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:325:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:330:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname=" after many forward and back operations, tasks are in correct state" name=" after many forward and back operations, tasks are in correct state" time="0.013">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-3-forward&quot;]
 
 &lt;body&gt;
@@ -1469,6 +919,53 @@
                     class=&quot;li-content layout-row justify-content-between align-items-center&quot;
                   &gt;
                     &lt;span
+                      data-testid=&quot;1-name&quot;
+                    &gt;
+                      1
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only danger x-small mx-2&quot;
+                        data-testid=&quot;1-delete&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          delete
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
                       data-testid=&quot;2-name&quot;
                     &gt;
                       2
@@ -1524,55 +1021,7 @@
               &lt;ul
                 class=&quot;styled mt-50&quot;
                 data-testid=&quot;stage-1&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
+              /&gt;
             &lt;/div&gt;
           &lt;/div&gt;
           &lt;div
@@ -1619,108 +1068,9 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
-    <testcase classname=" tasks are in correct state after multiple move and deletions" name=" tasks are in correct state after multiple move and deletions" time="0.019">
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:407:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
-      <failure>ReferenceError: onCardAdd is not defined
-    at onClick (/projects/challenge/src/components/kanban-board/index.js:36:99)
-    at HTMLUnknownElement.callCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:188:14)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLUnknownElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:119:9)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLUnknownElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLUnknownElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at Object.invokeGuardedCallbackDev (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:237:16)
-    at invokeGuardedCallback (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:292:31)
-    at invokeGuardedCallbackAndCatchFirstError (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:306:25)
-    at executeDispatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:389:3)
-    at executeDispatchesInOrder (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:414:5)
-    at executeDispatchesAndRelease (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3278:5)
-    at executeDispatchesAndReleaseTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3287:10)
-    at forEachAccumulated (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3259:8)
-    at runEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3304:3)
-    at runExtractedPluginEventsInBatch (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3514:3)
-    at handleTopLevel (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3558:5)
-    at batchedEventUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21871:12)
-    at batchedEventUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:795:12)
-    at dispatchEventForLegacyPluginEventSystem (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:3568:5)
-    at attemptToDispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4267:5)
-    at dispatchEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4189:19)
-    at unstable_runWithPriority (/projects/challenge/node_modules/scheduler/cjs/scheduler.development.js:653:12)
-    at runWithPriority$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:11039:10)
-    at discreteUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21887:12)
-    at discreteUpdates (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:806:12)
-    at dispatchDiscreteEvent (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:4168:3)
-    at invokeEventListeners (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:193:27)
-    at HTMLButtonElementImpl._dispatch (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:133:9)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:82:17)
-    at HTMLButtonElementImpl.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:30:27)
-    at HTMLButtonElement.dispatchEvent (/projects/challenge/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:157:21)
-    at /projects/challenge/node_modules/@testing-library/dom/dist/events.js:25:20
-    at /projects/challenge/node_modules/@testing-library/react/dist/pure.js:65:16
-    at batchedUpdates$1 (/projects/challenge/node_modules/react-dom/cjs/react-dom.development.js:21856:12)
-    at act (/projects/challenge/node_modules/react-dom/cjs/react-dom-test-utils.development.js:929:14)
-    at Object.eventWrapper (/projects/challenge/node_modules/@testing-library/react/dist/pure.js:64:28)
-    at fireEvent (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:16:35)
-    at Function.fireEvent.&lt;computed&gt; [as click] (/projects/challenge/node_modules/@testing-library/dom/dist/events.js:119:36)
-    at Function.click (/projects/challenge/node_modules/@testing-library/react/dist/fire-event.js:18:52)
-    at Object.&lt;anonymous&gt; (/projects/challenge/src/App.test.js:412:12)
-    at Object.asyncJestTest (/projects/challenge/node_modules/jest-jasmine2/build/jasmineAsyncInstall.js:102:37)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
-    at new Promise (&lt;anonymous&gt;)
-    at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    <testcase classname=" tasks are in correct state after multiple move and deletions" name=" tasks are in correct state after multiple move and deletions" time="0.014">
       <failure>TestingLibraryElementError: Unable to find an element by: [data-testid=&quot;task-1-forward&quot;]
 
 &lt;body&gt;
@@ -1773,6 +1123,53 @@
                     class=&quot;li-content layout-row justify-content-between align-items-center&quot;
                   &gt;
                     &lt;span
+                      data-testid=&quot;1-name&quot;
+                    &gt;
+                      1
+                    &lt;/span&gt;
+                    &lt;div
+                      class=&quot;icons&quot;
+                    &gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-back&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_back
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only x-small mx-2&quot;
+                        data-testid=&quot;1-forward&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          arrow_forward
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                      &lt;button
+                        class=&quot;icon-only danger x-small mx-2&quot;
+                        data-testid=&quot;1-delete&quot;
+                      &gt;
+                        &lt;i
+                          class=&quot;material-icons&quot;
+                        &gt;
+                          delete
+                        &lt;/i&gt;
+                      &lt;/button&gt;
+                    &lt;/div&gt;
+                  &lt;/div&gt;
+                &lt;/li&gt;
+                &lt;li
+                  class=&quot;slide-up-fade-in&quot;
+                &gt;
+                  &lt;div
+                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
+                  &gt;
+                    &lt;span
                       data-testid=&quot;2-name&quot;
                     &gt;
                       2
@@ -1828,55 +1225,7 @@
               &lt;ul
                 class=&quot;styled mt-50&quot;
                 data-testid=&quot;stage-1&quot;
-              &gt;
-                &lt;li
-                  class=&quot;slide-up-fade-in&quot;
-                &gt;
-                  &lt;div
-                    class=&quot;li-content layout-row justify-content-between align-items-center&quot;
-                  &gt;
-                    &lt;span
-                      data-testid=&quot;1-name&quot;
-                    &gt;
-                      1
-                    &lt;/span&gt;
-                    &lt;div
-                      class=&quot;icons&quot;
-                    &gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-back&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_back
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only x-small mx-2&quot;
-                        data-testid=&quot;1-forward&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          arrow_forward
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                      &lt;button
-                        class=&quot;icon-only danger x-small mx-2&quot;
-                        data-testid=&quot;1-delete&quot;
-                      &gt;
-                        &lt;i
-                          class=&quot;material-icons&quot;
-                        &gt;
-                          delete
-                        &lt;/i&gt;
-                      &lt;/button&gt;
-                    &lt;/div&gt;
-                  &lt;/div&gt;
-                &lt;/li&gt;
-              &lt;/ul&gt;
+              /&gt;
             &lt;/div&gt;
           &lt;/div&gt;
           &lt;div
@@ -1923,8 +1272,7 @@
     at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:43:12
     at new Promise (&lt;anonymous&gt;)
     at mapper (/projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:26:19)
-    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41
-    at processTicksAndRejections (internal/process/task_queues.js:97:5)</failure>
+    at /projects/challenge/node_modules/jest-jasmine2/build/queueRunner.js:73:41</failure>
     </testcase>
   </testsuite>
 </testsuites>
