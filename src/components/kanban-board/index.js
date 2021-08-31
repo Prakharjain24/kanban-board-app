@@ -31,19 +31,25 @@ export default class KanbanBoard extends Component {
   }
 
   handleSubmit = (e) => {
-    let user = {
-      name: this.state.fname,
-      stage: 0
+    if(this.state.fname === ""){
+      alert("Please Enter the Task ")
+    }else{
+      let user = {
+        name: this.state.fname,
+        stage: 0
+      }
+      var data = this.stagesNames;
+      let array = this.stagesNames[0].tasks
+      array.push(user)
+      var obj = {
+        title: 'Backlog',
+        tasks: array
+      }
+      data.splice(0, 1, obj);
+      this.setState({ stagesNames: data ,fname:""})
+
     }
-    var data = this.stagesNames;
-    let array = this.stagesNames[0].tasks
-    array.push(user)
-    var obj = {
-      title: 'Backlog',
-      tasks: array
-    }
-    data.splice(0, 1, obj);
-    this.setState({ stagesNames: data })
+   
 
   }
 
@@ -68,6 +74,28 @@ export default class KanbanBoard extends Component {
     this.setState({ stagesNames: dragArray })
 
   }
+
+
+  handleDelete = (e,stage , index, task) =>{
+
+    e.preventDefault();
+    let stageN = this.state.stagesNames;
+    console.log("this is 4 array",stageN)
+    stageN.map((item,i) => {
+      if(i === stage){
+
+        let tasks = item.tasks;
+        item.tasks.splice(index,1)
+         }
+      
+    })
+    this.setState({
+      stagesNames:stageN
+    })
+    }
+
+
+
 
   handleBackward = (e, i, index, task) => {
     e.preventDefault();
@@ -135,7 +163,8 @@ export default class KanbanBoard extends Component {
                             >
                               <i className="material-icons">arrow_forward</i>
                             </button>
-                            <button className="icon-only danger x-small mx-2" data-testid={`${task.name.split(' ').join('-')}-delete`}>
+                            <button className="icon-only danger x-small mx-2" data-testid={`${task.name.split(' ').join('-')}-delete`}
+                            onClick={(e)=>this.handleDelete(e,i,index,task)}>
                               <i className="material-icons">delete</i>
                             </button>
                           </div>
